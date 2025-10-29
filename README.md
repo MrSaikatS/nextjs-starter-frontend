@@ -8,11 +8,15 @@ A production-ready Next.js starter template for frontend use cases with modern t
   - 🚀 Turbopack (stable) - 5-10x faster Fast Refresh
   - 🔄 React Compiler Support (stable)
   - 🛠️ Enhanced Routing & Caching APIs
+  - 🔍 Type-safe Routes with `typedRoutes` for better development experience
 - 🎨 **Tailwind CSS** v4 with `tailwind-merge` for class composition
 - 🌓 **Dark/Light Mode** with `next-themes`
 - ✨ **Lucide Icons** for beautiful, consistent icons
 - 🛠 **TypeScript** for type safety
-- 🎯 **React 19.2** with View Transitions and `useEffectEvent`
+- 🎯 **React 19.2** with:
+  - 🆕 `<Activity />` component
+  - ⚡ `cacheSignal` for optimized re-renders
+  - 🚀 Performance Tracks for better optimization
 - 🧩 **UI Components** with `class-variance-authority` for type-safe variants
 - 🖼️ **Image Optimization** with `sharp`
 - 🔍 **ESLint** and **Prettier** for code quality
@@ -21,8 +25,8 @@ A production-ready Next.js starter template for frontend use cases with modern t
 
 ### Prerequisites
 
-- Node.js 20.0 or later (LTS recommended)
-- npm 10.x or later (included with Node.js)
+- Node.js 22.x (LTS recommended)
+- npm 11.x or later (included with Node.js)
 - Git for version control
 
 > **Note:** This project uses Next.js 16 with React 19.2, featuring Turbopack and React Compiler for optimal performance.
@@ -41,10 +45,10 @@ A production-ready Next.js starter template for frontend use cases with modern t
    ```bash
    # Using Bun (recommended)
    bun install
-   
+
    # Or using npm
    npm install
-   
+
    # Or using pnpm
    pnpm install
    ```
@@ -54,10 +58,10 @@ A production-ready Next.js starter template for frontend use cases with modern t
    ```bash
    # Using Bun (recommended for faster development)
    bun dev
-   
+
    # Or using npm
    npm run dev
-   
+
    # Or using pnpm
    pnpm dev
    ```
@@ -69,6 +73,7 @@ A production-ready Next.js starter template for frontend use cases with modern t
 ### Available Scripts
 
 #### Using Bun (recommended)
+
 - `bun dev` - Start the development server with Turbopack (5-10x faster)
 - `bun build` - Build for production
 - `bun start` - Start production server
@@ -77,6 +82,7 @@ A production-ready Next.js starter template for frontend use cases with modern t
 - `bun prod` - Lint, build, and start production server
 
 #### Using npm/pnpm
+
 - `npm run dev` or `pnpm dev` - Start the development server
 - `npm run build` or `pnpm build` - Build for production
 - `npm start` or `pnpm start` - Start production server
