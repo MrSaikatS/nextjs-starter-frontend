@@ -1,9 +1,10 @@
 import Header from "@/components/Header/Header";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
+import { ReactNode } from "react";
 import "./globals.css";
 
 type RootLayoutProps = {
-	children: React.ReactNode;
+	children: ReactNode;
 };
 
 const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
