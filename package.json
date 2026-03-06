@@ -43,7 +43,7 @@
     "unrs-resolver"
   ],
   "engines": {
-    "node": ">=22.x.x",
+    "node": ">=24.x.x",
     "npm": ">=11.x.x"
   },
   "author": "Saikat Sardar",
