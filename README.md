@@ -137,10 +137,10 @@ Make sure you have the following installed:
 
 - **Node.js `>=24.x.x`**
 - **npm `>=11.x.x`**
-- **Bun** or **npm** if you prefer an alternative package manager
+- **Bun**, **npm**, or **pnpm** if you prefer an alternative package manager
 - **Git**
 
-The Node.js and npm requirements are declared in `package.json`.
+> **Note:** This project uses Next.js 16 with React 19.2.8, featuring Turbopack and React Compiler for optimal performance.
 
 ### 1. Clone the repository
 
