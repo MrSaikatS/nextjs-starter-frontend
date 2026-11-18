@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer">
-    <img src="public/vercel.svg" alt="Vercel Logo" width="64" height="56" />
+    <img src="/favicon.ico" alt="Project logo" width="64" height="56" />
   </a>
 </p>
 
@@ -41,7 +41,7 @@
   <a href="#-available-scripts">Scripts</a> •
   <a href="#-project-structure">Structure</a> •
   <a href="#-contributing">Contributing</a> •
-  <a href="#-author--credits">Author</a>
+  <a href="#-author">Author</a>
 </p>
 
 ---
@@ -222,7 +222,7 @@ nextjs-starter-frontend/
 
 The starter uses `next-themes` wrapped in `src/components/Providers/ThemeProvider.tsx`:
 
-- **Default Theme**: Dark (with automatic system preference fallback)
+- **Default Theme**: Dark (no system preference fallback)
 - **Attribute**: `class` (toggled via `.dark` selector)
 - **Tailwind Variables**: Defined in `src/app/globals.css` with semantic color naming (`background`, `foreground`, `primary`, `muted`, etc.).
 
@@ -248,7 +248,9 @@ Contributions, feature proposals, and bug reports are warmly welcome!
    ```
 5. **Push** to the branch:
    ```bash
-   git push origin feature/amazing-feature
+   # Add your fork as a remote and push to it
+   git remote add fork https://github.com/YOUR_USERNAME/nextjs-starter-frontend.git
+   git push fork feature/amazing-feature
    ```
 
 ---
